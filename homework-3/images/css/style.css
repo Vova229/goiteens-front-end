@@ -1,0 +1,29 @@
+.wrp-btn{
+    text-align: center;
+  }
+  
+  .btn-load {
+    display: inline-block;
+    width: 164px;
+    height: 60px;
+    border: rgb(98, 98, 98) solid 1px;
+    color: #626262;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    text-decoration: none;
+  }
+  .link{
+      text-align: right;
+  }
+  .wraper-link{
+    display: inline;
+    margin: 50px;
+    text-align: center;
+    border: 50px;
+  }
+  * {
+    box-sizing: border-box;
+    /* font-size: 50px; */
+    /* color: black; */
+  }
