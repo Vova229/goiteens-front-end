@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\FrontEnd"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "goiteens-front-end"
+	}
+}
