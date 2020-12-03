@@ -1,34 +1,59 @@
-.title{
-max-width: 80%;
-      
-       
-
+* {
+    text-decoration: none;
+    box-sizing: border-box;
 }
-.title :hover{
-    transition-property:color ;
-    color: red; ;
+ul{
+    list-style: none;
 }
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
     
-.title-container :first-child{
-display: flex;
-justify-content: flex-start;
-    }
-.title-container{
-display: flex;
-justify-content: flex-end;
-color:aeddd6 ;
 }
-.name{
+.title-container{
+}
+.title{
+    color: #95e1d3;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2;
+}
+.menu{
+    display: flex;
+}
+.item-menu{
+    display: inline-block;
+    align-items: center;
+    margin-right: 50px;
+    color: #95e1d3;
+}
+.item-menu:not(:last-child){
+    margin-right: 50px; 
+}
+.menu-item-link{
+    font-size: 14px;
+    line-height: 1.714;
+    color: #95e1d3;
+}
+.item-menu:hover::after{
+    width: 100%;
+}
+.item-menu::after{
+content: "";
+display: block;
+height: 3px;
+width: 0;
+background-color:  #f48989;
+transition: .2s linear all;
+}
+.name-first{
+display: flex;
+justify-content: center;
+height: 185px;
 
-        font-size: 30px;
-        font-family: "Montserrat";
-        font-weight: bold;
-        text-transform: uppercase;
-        line-height: 1.2;
-        text-align: left;
-        position: absolute;
-         left: 357.844px;
-        top: 21.5px;
-         z-index: 92;
-         color: #aeddd6;
 }
