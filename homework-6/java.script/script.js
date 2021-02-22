@@ -8,13 +8,13 @@ const flag = true
 
 const text = "true"
 
-console.log(str);
+console.log(typeof str);
  
-console.log(num);
+console.log(typeof num);
 
-console.log(flag);
+console.log(typeof flag);
 
-console.log(text);
+console.log(typeof text);
 
 //---------2---------//
 const num1 = 228;
@@ -37,25 +37,26 @@ let str1 = "hi";
 
 let text2 = "false";
 
-console.log(num1);
+console.log(typeof num1);
 
-console.log(text1);
 
-console.log(name1);
+console.log(typeof text1);
 
-console.log(age1);
+console.log(typeof name1);
 
-console.log(size);
+console.log(typeof age1);
 
-console.log(num2);
+console.log(typeof size);
 
-console.log(flag1);
+console.log(typeof num2);
 
-console.log(size2);
+console.log(typeof flag1);
 
-console.log(str1);
+console.log(typeof size2);
 
-console.log(text2);
+console.log(typeof str1);
+
+console.log(typeof text2);
 
 
 
