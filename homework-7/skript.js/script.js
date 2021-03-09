@@ -25,7 +25,7 @@ let a1 = 5 + 3
 
 let a2 = 5 - 3
 
-let a3 = 5 % 3
+let a3 = 5 * 3
 
 let a4 = 5 / 3
 
@@ -66,7 +66,9 @@ const DC = 10
 
 const heightC = 4
 
-let V = DC * heightC
+const r = heightC / 2
+
+let V = DC * r
 
 console.log(V);
 
@@ -76,6 +78,6 @@ let N = Math.pow(3,2)
 
 let M = Math.pow(4,2)
 
-let K = N + M
+let K =Math.sqrt(N + M)
 
 console.log(K);
