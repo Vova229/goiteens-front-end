@@ -5,9 +5,9 @@
 let number = prompt('введите число')
 
 if (number >= 55 && number <=99) {
-   console.log(true);;
+   console.log('Число потрапляє у діапазон');;
 }
-    else{console.log(false);;}
+    else{console.log('Число не потрапляє в діапазон');;}
 
     console.log('-----------------------------------');
 
@@ -17,7 +17,7 @@ if (number >= 55 && number <=99) {
 
     console.log(age);
 
-     if (age <= 16 && age > 0) alert( 'Максим ти дитина') ;
+     if (age <= 16 && age > -1) alert( 'Максим ти дитина') ;
         
 
     else  if (age >= 17 && age  <= 60) alert ( 'Максим ти дорослий');
@@ -32,16 +32,15 @@ if (number >= 55 && number <=99) {
 
    
 
-   if (nam.length >= 4 && lnam.length >= 5){
-      console.log(true);;
-   }
+   if (nam.length > 4 && lnam.length >= 5){
+    console.log(nam.length + lnam.length);;
+  }
    else{console.log('УПС');}
 
-   console.log(nam.length + lnam.length);
 
    console.log('-----------------------------------');
 
-   let num = Math.floor(Math.random() * 6 ) + 1;
+   let num = Math.floor(Math.random() * 4 ) + 1;
 
    if (num = 1) alert(1)
 
@@ -59,17 +58,17 @@ if (number >= 55 && number <=99) {
 
 switch (lang) {
  case 'ua':
-    alert( 'Украинский' );
+    alert( 'April' );
     break;
   case' fr':
-    alert( 'Француский' );
+    alert( 'Janvier' );
     break;
   case 'ru':
-    alert( 'Руский' );
+    alert( 'March' );
     break;
 
     case 'en':
-    alert( 'Английскй' );
+    alert( 'December' );
     break;
 
   default:
