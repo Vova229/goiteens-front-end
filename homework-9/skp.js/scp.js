@@ -32,7 +32,7 @@ if (number >= 55 && number <=99) {
 
    
 
-   if (nam.length > 4 && lnam.length >= 5){
+   if (nam.length > 4 && lnam.length > 5){
     console.log(nam.length + lnam.length);;
   }
    else{console.log('УПС');}
